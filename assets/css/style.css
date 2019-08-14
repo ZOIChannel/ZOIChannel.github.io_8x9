@@ -6,39 +6,3 @@ a {
     padding: 10px;
     background-color: azure;
 }
-
-.red, .yellow, .green ,.none {
-    text-align: center;
-    padding: auto auto;
-    line-height: 30px;
-}
-.red {
-    background-color: red;
-}
-.yellow {
-    background-color: yellow;
-}
-.green {
-    background-color: green;
-}
-
-.red::before {
-    content: "非対応"
-}
-.yellow::before {
-    content: "確認済"
-}
-.green::before {
-    content: "対応"
-}
-.none::before {
-    content: "　　　"
-}
-
-.table {
-    margin: 30px 10px;
-}
-.table td, .table th {
-    line-height: 30px;
-    padding: 0;
-}
