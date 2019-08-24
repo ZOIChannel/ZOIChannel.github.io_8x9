@@ -2,3 +2,10 @@
     width: 100%;
     background-size: cover;
 }
+
+.Plagin-about {
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #cccccc;
+}

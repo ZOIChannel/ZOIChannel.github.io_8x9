@@ -2,7 +2,13 @@ a {
     font-weight: 100;
 }
 
+ol,
+ul {
+    list-style-type: none;
+}
+
 .main {
     padding: 10px;
     background-color: azure;
+    list-style-type: none;
 }
