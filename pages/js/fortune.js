@@ -64,7 +64,7 @@ function searchSeiza(monthDate) {
 
         // todo 条件判断して、
         // ret に seizaData[i] を入れる
-        if (seizaData[i].startDate <= monthDate && monthDate < seizaData[i + 1].startDate) { //-----エラー出る 0914-----
+        if (seizaData[i].startDate <= monthDate && monthDate < seizaData[i + 1].startDate) {
             ret = seizaData[i];
         }
     }

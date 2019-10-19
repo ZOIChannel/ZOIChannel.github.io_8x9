@@ -1,0 +1,229 @@
+{
+    "pinpointLocations": [{
+            "link": "http://weather.livedoor.com/area/forecast/2810000",
+            "name": "\u795e\u6238\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2820100",
+            "name": "\u59eb\u8def\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2820200",
+            "name": "\u5c3c\u5d0e\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2820300",
+            "name": "\u660e\u77f3\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2820400",
+            "name": "\u897f\u5bae\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2820500",
+            "name": "\u6d32\u672c\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2820600",
+            "name": "\u82a6\u5c4b\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2820700",
+            "name": "\u4f0a\u4e39\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2820800",
+            "name": "\u76f8\u751f\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2821000",
+            "name": "\u52a0\u53e4\u5ddd\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2821200",
+            "name": "\u8d64\u7a42\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2821300",
+            "name": "\u897f\u8107\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2821400",
+            "name": "\u5b9d\u585a\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2821500",
+            "name": "\u4e09\u6728\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2821600",
+            "name": "\u9ad8\u7802\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2821700",
+            "name": "\u5ddd\u897f\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2821800",
+            "name": "\u5c0f\u91ce\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2821900",
+            "name": "\u4e09\u7530\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2822000",
+            "name": "\u52a0\u897f\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2822100",
+            "name": "\u7be0\u5c71\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2822300",
+            "name": "\u4e39\u6ce2\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2822400",
+            "name": "\u5357\u3042\u308f\u3058\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2822600",
+            "name": "\u6de1\u8def\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2822700",
+            "name": "\u5b8d\u7c9f\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2822800",
+            "name": "\u52a0\u6771\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2822900",
+            "name": "\u305f\u3064\u306e\u5e02"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2830100",
+            "name": "\u732a\u540d\u5ddd\u753a"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2836500",
+            "name": "\u591a\u53ef\u753a"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2838100",
+            "name": "\u7a32\u7f8e\u753a"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2838200",
+            "name": "\u64ad\u78e8\u753a"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2844200",
+            "name": "\u5e02\u5ddd\u753a"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2844300",
+            "name": "\u798f\u5d0e\u753a"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2844600",
+            "name": "\u795e\u6cb3\u753a"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2846400",
+            "name": "\u592a\u5b50\u753a"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2848100",
+            "name": "\u4e0a\u90e1\u753a"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2850100",
+            "name": "\u4f50\u7528\u753a"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/280010",
+    "forecasts": [{
+            "dateLabel": "\u4eca\u65e5",
+            "telop": "\u66c7\u6642\u3005\u96e8",
+            "date": "2019-09-22",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "28",
+                    "fahrenheit": "82.4"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/10.gif",
+                "title": "\u66c7\u6642\u3005\u96e8",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "\u660e\u65e5",
+            "telop": "\u66c7\u6642\u3005\u96e8",
+            "date": "2019-09-23",
+            "temperature": {
+                "min": {
+                    "celsius": "25",
+                    "fahrenheit": "77.0"
+                },
+                "max": {
+                    "celsius": "30",
+                    "fahrenheit": "86.0"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/10.gif",
+                "title": "\u66c7\u6642\u3005\u96e8",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "\u660e\u5f8c\u65e5",
+            "telop": "\u66c7\u6642\u3005\u6674",
+            "date": "2019-09-24",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/9.gif",
+                "title": "\u66c7\u6642\u3005\u6674",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "\u795e\u6238",
+        "area": "\u8fd1\u757f",
+        "prefecture": "\u5175\u5eab\u770c"
+    },
+    "publicTime": "2019-09-22T11:00:00\u002b0900",
+    "copyright": {
+        "provider": [{
+            "link": "http://tenki.jp/",
+            "name": "\u65e5\u672c\u6c17\u8c61\u5354\u4f1a"
+        }],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor \u5929\u6c17\u60c5\u5831",
+            "height": 26
+        }
+    },
+    "title": "\u5175\u5eab\u770c \u795e\u6238 \u306e\u5929\u6c17",
+    "description": {
+        "text": " \u8fd1\u757f\u5730\u65b9\u306f\u3001\u524d\u7dda\u3084\u6e7f\u3063\u305f\u7a7a\u6c17\u306e\u5f71\u97ff\u3067\u304a\u304a\u3080\u306d\u66c7\u308a\u3001\u5175\u5eab\u770c\u3084\u5357\u90e8\u3092\u4e2d\u5fc3\u306b\u96e8\u306e\u964d\u3063\u3066\u3044\u308b\u6240\u304c\u3042\u308a\u307e\u3059\u3002\n\n \u4eca\u65e5\u306e\u5175\u5eab\u770c\u306f\u3001\u524d\u7dda\u3084\u6e7f\u3063\u305f\u7a7a\u6c17\u306e\u5f71\u97ff\u3067\u66c7\u308a\u3001\u65ad\u7d9a\u7684\u306b\u96e8\u3068\u306a\u308b\u898b\u8fbc\u307f\u3067\u3059\u3002\u591c\u306b\u306f\u3001\u96f7\u3092\u4f34\u3044\u6fc0\u3057\u3044\u96e8\u306e\u964d\u308b\u6240\u3082\u3042\u308b\u3067\u3057\u3087\u3046\u3002\n\n \u660e\u65e5\u306e\u5175\u5eab\u770c\u306f\u3001\u524d\u7dda\u3084\u6e7f\u3063\u305f\u7a7a\u6c17\u306e\u5f71\u97ff\u3067\u66c7\u308a\u3001\u65ad\u7d9a\u7684\u306b\u96e8\u3068\u306a\u308b\u898b\u8fbc\u307f\u3067\u3059\u3002\u660e\u3051\u65b9\u307e\u3067\u306f\u3001\u96f7\u3092\u4f34\u3044\u6fc0\u3057\u3044\u96e8\u306e\u964d\u308b\u6240\u3082\u3042\u308b\u3067\u3057\u3087\u3046\u3002",
+        "publicTime": "2019-09-22T10:33:00\u002b0900"
+    }
+}

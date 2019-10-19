@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Weather</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+        div.row.title,
+        div.row.forecasts,
+        div.row.pinpointLocations {
+            margin-top: 2em;
+        }
+        
+        div.row.footer {
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+        /*
+        .sharpimg {
+            -ms-interpolation-mode: nearest-neighbor;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -o-crisp-edges;
+            image-rendering: pixelated;
+        }
+        */
+    </style>
+</head>
+
+<body></body>
+<header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <strong>Weather</strong>
+            </a>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="output">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row title">
+            <div class="col-md-12" id="weather_title">
+                <!-- 
+                <h1>${data.title}</h1>
+                <p>${data.publictTime}</p>
+-->
+            </div>
+        </div>
+        <div class="row forecasts" id="weather_forecasts">
+            <!-- 
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-xs-12 mx-auto">
+                        <h2>${item.dateLabel}</h2>
+                        <p>${item.date}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 mx-auto">
+                        <p>
+                            <img src="${item.image.url}" alt="${item.image.title}" />
+                        </p>
+                        <p>${item.telop}</p>
+                    </div>
+                </div>
+            </div>
+ -->
+        </div>
+        <div class="row pinpointLocations">
+            <div class="col-md-12">
+                <h1>ピンポイント天気</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>名前</th>
+                            <th>リンク</th>
+                        </tr>
+                    </thead>
+                    <tbody id="weather_pinpointLocations">
+                        <tr>
+                            <td>${item.name}</td>
+                            <td><a href="${item.link}" target="_black">リンク</a></td>
+                        </tr>
+                        <!-- 
+                        <tr>
+                            <td>${item.name}</td>
+                            <td><a href="${item.link}" target="_black">リンク</a></td>
+                        </tr>
+ -->
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-md-12" id="weather_footer">
+                <!-- 
+                Weather Data by <span>${data.copyright.title}</span>
+ -->
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="float-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>&copy;
+            <a href="https://8x9.jp"></a>8x9 Co., Ltd.</a> All rights reseved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap core JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+
+<!-- JS -->
+<script type="text/javascript" src="js/weather.js"></script>
+<script type="text/javascript">
+    console.log("test")
+        // HTMLのローディングが終わったら実行されるイベント 
+    window.onload = function() {
+        console.log("document.onready")
+
+        // weather.js に定義された関数を実行
+        fetchWeather()
+    }
+</script>
+
+
+</html>
