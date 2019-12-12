@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>オレのToDo管理</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+  <body>
+    <header>
+        <h1>オレの!ToDo!管理!</h1>
+    </header>
+
+<main role="main">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+            <form>
+                <div class="form-group">
+                  <label for="todo">やること</label>
+                  <input type="text" class="form-control" id="todo" placeholder="やること">
+                  <input type="text" name="dummy" style="display:none;">
+                </div>
+                <button type="button" onclick="save();" class="btn btn-primary">送信する</button>
+              </form>
+        </div>
+      </div>
+    </div>
+
+    <hr/>
+
+    <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+              <table class="table">
+                  <thead>
+                      <tr>
+                          <th style="width:3em;"></th>
+                          <th style="width:auto;">ToDo</th>
+                      </tr>
+                  </thead>
+                  <tbody id="output">
+                    <tr>
+                        <td class="text-right">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" onchange="done(1)">
+                        </td>
+                        <td>
+                            あーだこーだ
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+  
+</main>
+
+<footer class="text-muted">
+&copy;2019 shibomb.
+</footer>
+
+<!-- js -->
+<script type="text/javascript" src="./js/todo.js"></script>
+<script type="text/javascript">
+    console.log("loading")
+    // HTMLのローディングが終わったら実行されるイベント 
+    window.onload = function () {
+        console.log("document.onready")
+
+        // weather.js に定義された関数を実行
+        load()
+    }
+</script>
+
+</html>
